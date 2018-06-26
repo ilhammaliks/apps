@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Student Desk</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="studentdesk">Student Desk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="halaman_utama">Halaman Utama</string>
+    <string name="permintaan_surat">Permintaan Surat</string>
+    <string name="isi_krs">Isi KRS</string>
+    <string name="chat_online">Chat Online</string>
+    <string name="test_qur_an">Test Qur\'an</string>
+    <string name="ringkasan_akademik">Ringkasan Akademik</string>
+    <string name="biodata">Biodata</string>
+    <string name="keuangan">Keuangan</string>
+    <string name="perkuliahan">Perkuliahan</string>
+    <string name="nilai">Nilai</string>
+    <string name="uai_english_test">UAI English Test</string>
+    <string name="username">Username</string>
+    <string name="nim">NIM</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+
+    <string name="surat_prompt">Pilih Surat</string>
+    <string-array name="array_surat">
+        <item>Surat Keterangan Mahasiswa</item>
+        <item>Surat Penelitian</item>
+        <item>Surat Keterangan Lulus</item>
+        <item>Surat Magang</item>
+    </string-array>
+
+    <string name="bahasa_prompt">Pilih Bahasa</string>
+    <string-array name="array_bahasa">
+        <item>Bahasa Indonesia</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="tabJadwal">Jadwal</string>
+    <string name="tabKehadiran">Kehadiran</string>
+    <string name="tabPengganti">Pengganti</string>
+    <string name="selamat_datang_di_student_desk">Selamat Datang di Student Desk</string>
+    <string name="grade_nilai">Grade Nilai</string>
+    <string name="matakuliah_d_e">MataKuliah D/E</string>
+    <string name="semester_pendek">Semester Pendek</string>
+    <string name="riwayat_pembayaran_perkuliahan">Riwayat Pembayaran Perkuliahan</string>
+    <string name="nilai_uai_english_test">Nilai UAI English Test</string>
+    <string name="krs_semester_pendek">KRS Semester Pendek</string>
+    <string name="nilai_sp">Nilai SP</string>
+    <string name="daftar_sidang">Daftar Sidang</string>
+    <string name="daftar_wisuda">Daftar Wisuda</string>
+
+
+</resources>

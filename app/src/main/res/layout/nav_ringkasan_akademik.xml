@@ -1,0 +1,544 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.zhimer.studentdesk.Fragment.RingkasanAkademik">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ringkasan_akademik"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp">
+
+                <TableRow
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Nama Lengkap"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etNama"
+                        android:paddingLeft="1dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Ilham Malik Muhammad"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="NIM"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etNim"
+                        android:paddingLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0102513010"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Program Studi"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etProdi"
+                        android:paddingLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Pendidikan Anak Usia Dini"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Pembimbing Akademik"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etDosen"
+                        android:paddingLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="ENDANG RIPMIATIN"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Jalur Masuk"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etJalur"
+                        android:paddingLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Test Seleksi"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Status Akademik"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etStatus"
+                        android:paddingLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Aktif"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="SKS A/B/C"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etSks"
+                        android:paddingLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="132"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="IPK"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etIpk"
+                        android:paddingLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="3.75"
+                        android:textColor="@color/black"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Grade Nilai"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="1dp">
+
+                <TableRow
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Nilai"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Jumlah"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="A"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etnilaiA"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="24"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="B"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etnilaiB"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="23"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="C"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etnilaiC"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="D"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etnilaiD"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="E"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/etnilaiE"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Daftar Matakuliah D/E"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="50dp">
+
+                <TableRow
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Kode"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Mata Kuliah"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="SKS"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Nilai"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="ST52213201"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Bahasa Indonesia Penulisan Ilmiah"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="D"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

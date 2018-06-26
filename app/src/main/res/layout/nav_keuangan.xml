@@ -1,0 +1,625 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.zhimer.studentdesk.Fragment.Keuangan">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/riwayat_pembayaran_perkuliahan"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp">
+
+                <TableRow
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Semester"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="jumlah Biaya"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Potongan"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Jumlah Bayar"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Status"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="16.500.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="16.500.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="6.600.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="7.200.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="6.600.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="6"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="7.200.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="7"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="7.600.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="8"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="7.400.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="9"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="6.800.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="15.100.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Lunas"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="10"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="7.400.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="3.600.000"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:text="Kurang"
+                        android:textColor="#f44336"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

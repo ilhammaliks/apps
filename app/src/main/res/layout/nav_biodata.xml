@@ -1,0 +1,313 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.zhimer.studentdesk.Fragment.Biodata">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/biodata"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="2dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Nama" />
+
+                <TextView
+                    android:id="@+id/tvNama"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Ilham Malik Muhammad" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="@string/nim" />
+
+                <TextView
+                    android:id="@+id/tvNim"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="0102513010" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Program Studi" />
+
+                <TextView
+                    android:id="@+id/tvProdi"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Pendidikan Anak Usia Dini" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Pembimbing Akademik" />
+
+                <TextView
+                    android:id="@+id/tvDosen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="ENDANG RIPMIATIN" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Jalur Masuk" />
+
+                <TextView
+                    android:id="@+id/tvJalur"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Test Seleksi" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Status Akademik" />
+
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Aktif" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Alamat" />
+
+                <TextView
+                    android:id="@+id/tvAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="jl. kepodang 8 k1/24 rengas ciputat timur tanggerang selatan " />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Kota, Kode Pos" />
+
+                <TextView
+                    android:id="@+id/tvKota"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="Tangerang, 15412" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="No. Telepon" />
+
+                <TextView
+                    android:id="@+id/tvTelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="083895671999" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="No. Handphone" />
+
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="083895671999" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="E - Mail" />
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:text="ilhammalikmuhammad@gmail.com" />
+            </TableRow>
+        </TableLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/bEdit"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            app:cardBackgroundColor="@color/darkgray"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Edit Biodata"
+                    android:textColor="#ffff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
