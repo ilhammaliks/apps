@@ -7,4 +7,8 @@
     <color name="black">#000</color>
     <color name="darkgray">#6c6c6c</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="cardBackground">#bdbdbd</color>
+    <color name="cardBackground2">#efefef</color>
+
 </resources>

@@ -98,12 +98,12 @@ public class HalamanUtama extends Fragment {
                         String tanggal = exploreObject.getString("TanggalBuat");
                         String isi = exploreObject.getString("IsiNotifikasi");
 
-                        String isiotif = Html.fromHtml(isi).toString();
+                        String isinotif = Html.fromHtml(isi).toString();
 
                         berita.setJudul(judul);
                         berita.setPengirim(pengirim);
                         berita.setTanggal(tanggal);
-                        berita.setIsinotif(isiotif);
+                        berita.setIsinotif(isinotif);
 
                         beritaList.add(berita);
                         //TODO 2: tambah method notifyDataSetChanged() tujuannya setiap data di add adapternya bakal berubah
