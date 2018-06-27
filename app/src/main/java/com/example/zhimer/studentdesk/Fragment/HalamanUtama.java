@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.zhimer.studentdesk.Adapter.BeritaAdapter;
 import com.example.zhimer.studentdesk.Model.Berita;
 import com.example.zhimer.studentdesk.R;
 import com.example.zhimer.studentdesk.SessionManager;
@@ -55,23 +56,17 @@ public class HalamanUtama extends Fragment {
         // Inflate the layout for this fragment
         view =  inflater.inflate(R.layout.nav_halaman_utama, container, false);
 
-        gettingData();
-
         session = new SessionManager(getContext().getApplicationContext());
+        beritaList = new ArrayList<>();
+        //TODO 1: Harus inisialisasi dulu adapternya cuy
+        adapter = new BeritaAdapter(beritaList, getActivity());
 
-        getAPI();
-
-
-
-        recyclerView = (RecyclerView)view.findViewById(R.id.listBerita);
+        recyclerView = view.findViewById(R.id.listBerita);
         recyclerView.setHasFixedSize(true);
-        layoutManager = new LinearLayoutManager(getContext());
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(adapter);
 
-        beritaList = new ArrayList<>();
-
-
+        gettingData();
 
         return view;
     }
@@ -91,6 +86,8 @@ public class HalamanUtama extends Fragment {
                     JSONObject object = new JSONObject(response.toString());
                     JSONArray jsonArray = object.getJSONArray("data");
 
+                    Log.d("dataAPI", jsonArray.length()+"");
+
                     for (int i = 0; i < jsonArray.length(); i++)
                     {
                         JSONObject exploreObject = jsonArray.getJSONObject(i);
@@ -109,6 +106,8 @@ public class HalamanUtama extends Fragment {
                         berita.setIsinotif(isiotif);
 
                         beritaList.add(berita);
+                        //TODO 2: tambah method notifyDataSetChanged() tujuannya setiap data di add adapternya bakal berubah
+                        adapter.notifyDataSetChanged();
                     }
 
 
@@ -125,17 +124,5 @@ public class HalamanUtama extends Fragment {
                 Log.d("getKampus", errorResponse + " gagal");
             }
         });
-    }
-
-    private void getAPI()
-    {
-        try {
-            JSONObject object = new JSONObject(session.getAPI());
-
-            Log.d("objek", object + "");
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
     }
 }
